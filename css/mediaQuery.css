@@ -1,0 +1,206 @@
+/*-----------------------------  */
+/*----------- media query------ */
+/*--------------------------------  */
+
+/* mobile */
+
+@media screen and (max-width :800px) {
+   
+    .home{
+        background-position: center center;
+    }
+
+    .navbar .logo{
+        width: 10%;
+        padding: 5px;
+    }
+    .navbar .logo img{
+        width: 100%;
+    }
+    .navbar .nav{
+        width: 90%;
+
+    }
+    .nav li{
+        padding: 2px;
+    }
+    .nav li a{
+        padding: 25px 0px;
+        font-size: 12px;
+    }
+
+    .bkgnd h2{
+        font-size:44px;
+    }
+
+    .hello .header,
+    .service .header,
+    .cv .header,
+    .portfolio .header,
+    .feedback .header,
+    .contact .header{
+        font-size:65px;
+    }
+
+.hello .header::after,
+.service .header::after,
+.cv .header::after,
+.portfolio .header::after,
+.feedback .header::after,
+.contact .header::after{
+    bottom: 20%;
+}
+
+.hello .header::before,
+.service .header::before,
+.cv .header::before,
+.portfolio .header::before,
+.feedback .header::before,
+.contact .header::before{
+    font-size: 25px;
+
+}
+    
+.sub,
+.stats,
+.service .content-ser,
+.subcv,
+.all-gallery,
+.feed,
+.ctct,
+.footer .container{
+    flex-direction: column;
+}
+
+.sub .sub1,
+.sub .sub2{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.sub .sub1,
+.addr,
+.footer .container{
+    text-align: center;
+}
+
+.stats .counter1{
+    width: 100%;
+    border: none ;
+}
+/* .service .content-ser{
+    margin: 10px 0px;
+    margin: 20px 0px;
+} */
+
+.subcv .col1,
+.all-gallery .col,
+.subfeed,
+.addr,
+.form1{
+    width: 100%;
+}
+
+  
+}
+  
+  /* tablet */
+  
+  @media screen and (min-width :801px) and (max-width :1200px) {
+  
+    .home{
+        background-position: center center;
+    }
+
+    .navbar .logo{
+        width: 10%;
+        padding: 5px;
+    }
+    .navbar .logo img{
+        width: 100%;
+    }
+    .navbar .nav{
+        width: 90%;
+
+    }
+    .nav li{
+        padding: 2px;
+    }
+    .nav li a{
+        padding: 25px 0px;
+        font-size: 12px;
+    }
+
+    .bkgnd h2{
+        font-size:44px;
+    }
+
+    .hello .header,
+    .service .header,
+    .cv .header,
+    .portfolio .header,
+    .feedback .header,
+    .contact .header{
+        font-size:65px;
+    }
+
+.hello .header::after,
+.service .header::after,
+.cv .header::after,
+.portfolio .header::after,
+.feedback .header::after,
+.contact .header::after{
+    bottom: 20%;
+}
+
+.hello .header::before,
+.service .header::before,
+.cv .header::before,
+.portfolio .header::before,
+.feedback .header::before,
+.contact .header::before{
+    font-size: 25px;
+
+}
+    
+.sub,
+.stats,
+.service .content-ser,
+.subcv,
+.all-gallery,
+.feed,
+.ctct,
+.footer .container{
+    flex-direction: column;
+}
+
+.sub .sub1,
+.sub .sub2{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.sub .sub1,
+.addr,
+.footer .container{
+    text-align: center;
+}
+
+.stats .counter1{
+    width: 100%;
+    border: none ;
+}
+/* .service .content-ser{
+    margin: 10px 0px;
+    margin: 20px 0px;
+} */
+
+.subcv .col1,
+.all-gallery .col,
+.subfeed,
+.addr,
+.form1{
+    width: 100%;
+}
+
+  }
